@@ -1,5 +1,6 @@
 body {
   background-color: lightgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-collapse {
@@ -35,9 +36,13 @@ body {
   background-color: cadetblue;
   color: lightgrey;
 }
+#contact-button:hover{
+  background-color: darkturquoise;
+}
 
 h1{
   color: cadetblue;
+  font-weight: bold;
 }
 /* .container  {
   width: 100%;
@@ -48,14 +53,20 @@ h1{
   background-color: white;
 } */
 
-#contact-info {
+main #contact-info {
   background-color: white;
-  width: 50%;
-  margin-right: auto;
+  width: 30%;
+  height: 60%;
+  margin-right: 80%;
   margin-left: 15%;
-  padding-left: 0px;
   margin-top: 10%;
-  padding-top: 3px;
-  margin-bottom: 50%;
+  margin-bottom: 20%;
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 100px;
+
+  
+  
   /* padding-bottom: auto; */
 }
