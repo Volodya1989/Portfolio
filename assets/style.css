@@ -36,6 +36,26 @@ body {
   color: lightgrey;
 }
 
-h1 #contact{
-   color:  cadetblue;
+h1{
+  color: cadetblue;
+}
+/* .container  {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+} */
+
+#contact-info {
+  background-color: white;
+  width: 50%;
+  margin-right: auto;
+  margin-left: 15%;
+  padding-left: 0px;
+  margin-top: 10%;
+  padding-top: 3px;
+  margin-bottom: 50%;
+  /* padding-bottom: auto; */
 }
