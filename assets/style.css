@@ -55,7 +55,7 @@ h1{
 
 main #contact-info {
   background-color: white;
-  width: 30%;
+  width: 45%;
   height: 60%;
   margin-right: 80%;
   margin-left: 15%;
@@ -64,9 +64,38 @@ main #contact-info {
   padding-left: 35px;
   padding-top: 35px;
   padding-bottom: 35px;
-  padding-right: 100px;
-
-  
-  
+  padding-right: 100px;  
   /* padding-bottom: auto; */
 }
+
+footer{
+  height: 100%;
+  background-color: dimgrey;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 5px solid cadetblue;
+}
+#copyright {
+  text-align: center;
+  }
+
+  #portfolio-info{
+    height: 100%;
+  }
+
+  main #portfolio-info {
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    margin-right: 80%;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 100px;  
+    /* padding-bottom: auto; */
+  }
