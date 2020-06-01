@@ -123,6 +123,13 @@ main #portfolio-info {
   background-color: white;
 }
 
+
+.contact-info{
+  max-width: 450px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
 .bottom-center {
   position: absolute;
   bottom: 8px;
@@ -142,7 +149,7 @@ main #portfolio-info {
   padding-top: 35px;
   padding-bottom: 35px;
   padding-right: 35px;
-  /* padding-bottom: auto; */
+  padding-bottom: auto;
 }
 hr {
   height: 2px;
@@ -190,8 +197,14 @@ hr {
   }
 } 
 
-/* @media   (max-width: 1110px ) {
-  .container .content {
-    width: auto;
+@media screen and (min-width: 768px) {
+  /* The body's bg color will be #333 */
+  .content{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 11%;
+    margin-bottom: 30%;
+
   }
-}  */
+  
+}
