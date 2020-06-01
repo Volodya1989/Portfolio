@@ -1,5 +1,6 @@
 body {
   background-color: lightgrey;
+  background-image: url(../assets/background_theme/gtpfbg.png);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -189,8 +190,8 @@ hr {
   }
 } 
 
-/* @media all and  (max-width: 960px ) {
-  .content{
-    width: 300px;
+/* @media   (max-width: 1110px ) {
+  .container .content {
+    width: auto;
   }
 }  */
