@@ -40,6 +40,9 @@ body {
 #contact-button:hover {
   background-color: darkturquoise;
 }
+#portfolio{
+  text-align: left;
+}
 
 h1 {
   color: cadetblue;
