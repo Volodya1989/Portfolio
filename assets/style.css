@@ -99,8 +99,19 @@ main #portfolio-info {
   padding-top: 35px;
   padding-bottom: 35px;
   padding-right: 35px;
+  position: relative;
+  text-align: center;
+
   /* padding-bottom: auto; */
 }
+
+.bottom-center {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: cadetblue;
+}
+
 
 #about-info {
   background-color: white;
@@ -122,5 +133,19 @@ hr {
 }
 
 .content-text{
-  font-size: 7vw
+  font-size: 6vw
+}
+
+.banner{
+  position: relative;
+   
+}
+.heading{
+position: relative;
+text-align: center;
+width: 100%;
+background-color: cadetblue;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
 }
