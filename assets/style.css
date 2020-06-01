@@ -3,7 +3,6 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -40,14 +39,14 @@ body {
 #contact-button:hover {
   background-color: darkturquoise;
 }
-#portfolio{
+#portfolio {
   text-align: left;
 }
 
 h1 {
   color: cadetblue;
   font-weight: bold;
-  font-size:5 vw;
+  font-size: 5 vw;
 }
 /* .container  {
   width: 100%;
@@ -58,12 +57,10 @@ h1 {
   background-color: white;
 } */
 
-main #contact-info {
+/* main #contact-info {
   background-color: white;
-  width: 45%;
-  height: 60%;
-  margin-right: 80%;
-  margin-left: 15%;
+  
+  
   margin-top: 10%;
   margin-bottom: 20%;
   padding-left: 35px;
@@ -71,7 +68,14 @@ main #contact-info {
   padding-bottom: 35px;
   padding-right: 35px;
   /* padding-bottom: auto; */
+/* }  */
+
+.contact-info{
+  max-width: 450px;
+  margin-left: 15px;
+  margin-right: auto;
 }
+
 
 footer {
   height: 100%;
@@ -108,13 +112,22 @@ main #portfolio-info {
   /* padding-bottom: auto; */
 }
 
+.content{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  background-color: white;
+}
+
 .bottom-center {
   position: absolute;
   bottom: 8px;
   left: 16px;
   background-color: cadetblue;
 }
-
 
 #about-info {
   background-color: white;
@@ -135,20 +148,49 @@ hr {
   background-color: lightgray;
 }
 
-.content-text{
-  font-size: 6vw
+.content-text {
+  font-size: 6vw;
 }
 
-.banner{
+.banner {
   position: relative;
-   
 }
-.heading{
-position: relative;
-text-align: center;
-width: 100%;
-background-color: cadetblue;
-padding-top: 10px;
-padding-bottom: 10px;
-color: white;
+.heading {
+  position: absolute;
+  font-size: 14px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  text-align: center;
+  width: 100%;
+  background-color: cadetblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
 }
+
+/* /* @media (min-width: 576px) {
+  .container main #contact-info {
+    width: 100%;
+  } */
+  
+.card-img{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+@media all and (max-width: 767px) {
+  .card-img{
+    width: 100px;
+    height: 100px;
+  }
+} 
+
+/* @media all and  (max-width: 960px ) {
+  .content{
+    width: 300px;
+  }
+}  */
