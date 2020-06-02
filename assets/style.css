@@ -63,20 +63,7 @@ h1 {
 /* .p{
   font-size: 14px;
 } */
-.contact-content{
-  width: 70%;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 20px;
-  margin-bottom: 50%;
-  padding-top: 25px;
-  padding-left: 25px;
-  padding-bottom: 15px;
-  padding-right: 25px;
-  background-color: white;
-  max-width: 550px;
-  min-width: 250px;
-}
+
 
 /* main #contact-info {
   background-color: white;
@@ -132,7 +119,20 @@ main #portfolio-info {
 
 }
 
-
+.contact-content{
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 20px;
+  margin-bottom: 30%;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  background-color: white;
+  max-width: 550px;
+  min-width: 250px;
+}
 
 
 
@@ -145,7 +145,7 @@ main #portfolio-info {
 
 #about-info {
   background-color: white;
-  width: 50%;
+  width: 60%;
   height: 70%;
   margin-right: 80%;
   margin-left: 5%;
@@ -215,7 +215,7 @@ hr {
 } 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   #contact-info {	  
     width : 80%;
     margin-top: 10%;
