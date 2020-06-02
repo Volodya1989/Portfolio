@@ -19,9 +19,9 @@
 
 ## Usage
 
-This Portfolio Website were done for personal use of the people who would like to have quick and nice way to show to employer who this person is and what kind of experience this person has.
+This Portfolio Website was done for personal use of the people who would like to have quick and nice way to show to employer who this person is and what kind of experience this person has.
 
-This web page were built by using best practices of web development including responsive images and responsive layout and modified components of bootstrap library.
+This web page was built by using best practices of web development including responsive images, responsive layout and modified components of bootstrap library.
 
 [Deployed Horiseon Website Link ](https://volodya1989.github.io/gt-hw-bootstrap-portfolio/)
 
@@ -59,6 +59,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-<!-- ## Contributing
+ <!-- ## Contributing
 
-If you would like to contribute to this project, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines. --
+If you would like to contribute to this project, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines.  -->
