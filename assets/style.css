@@ -98,11 +98,7 @@ footer {
   text-align: center;
 }
 
-#portfolio-info {
-  height: 100%;
-}
-
-main #portfolio-info {
+ #portfolio-info {
   background-color: white;
   width: 60%;
   height: 70%;
@@ -134,15 +130,6 @@ main #portfolio-info {
   min-width: 250px;
 }
 
-
-
-.bottom-center {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  background-color: cadetblue;
-}
-
 #about-info {
   background-color: white;
   width: 60%;
@@ -157,6 +144,17 @@ main #portfolio-info {
   padding-right: 35px;
   /* padding-bottom: auto; */
 }
+
+
+
+.bottom-center {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: cadetblue;
+}
+
+
 hr {
   height: 2px;
   background-color: lightgray;
@@ -211,28 +209,31 @@ hr {
     width: 200px;
     height: 200px;
   }
+
+  
   
 } 
 
 
 @media screen and (max-width: 990px) {
   #contact-info {	  
-    width : 80%;
+    width : 90%;
     margin-top: 10%;
-    margin-left: 8%;
+    margin-left: 4%;
     margin-bottom: 30%;
   }	 
   
   #about-info{	  
-    width : 80%;
+    width : 90%;
     margin-top: 10%;
-    margin-left: 8%;
+    margin-left: 4%;
     margin-bottom: 30%;
 
   }	 
   #portfolio-info{	  
-    width : 100%;
-   
+    width : 90%;
+    margin-top: 10%;
+    margin-left: 4%;
     margin-bottom: 30%;
 
   }	 
