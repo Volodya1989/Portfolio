@@ -50,39 +50,6 @@ h1 {
   font-size: 3 vw;
   margin-bottom: 0px;
 }
-/* .container  {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 100px;
-
-  background-color: white;
-} */
-/* .p{
-  font-size: 14px;
-} */
-
-
-/* main #contact-info {
-  background-color: white;
-  
-  
-  margin-top: 10%;
-  margin-bottom: 20%;
-  padding-left: 35px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  padding-right: 35px;
-  /* padding-bottom: auto; */
-/* }  */
-
-/* .contact-info{
-  max-width: 450px;
-  margin-left: 15px;
-  margin-right: auto;
-} */
 
 
 footer {
@@ -142,7 +109,6 @@ footer {
   padding-top: 35px;
   padding-bottom: 35px;
   padding-right: 35px;
-  /* padding-bottom: auto; */
 }
 
 
@@ -245,4 +211,3 @@ img {
 
   }	 
 }
-
