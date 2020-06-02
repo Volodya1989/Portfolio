@@ -47,7 +47,8 @@ body {
 h1 {
   color: cadetblue;
   font-weight: bold;
-  font-size: 5 vw;
+  font-size: 3 vw;
+  margin-bottom: 0px;
 }
 /* .container  {
   width: 100%;
@@ -55,8 +56,27 @@ h1 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 100px;
+
   background-color: white;
 } */
+/* .p{
+  font-size: 14px;
+} */
+.contact-content{
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 20px;
+  margin-bottom: 50%;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  background-color: white;
+  max-width: 550px;
+  min-width: 250px;
+}
 
 /* main #contact-info {
   background-color: white;
@@ -71,11 +91,11 @@ h1 {
   /* padding-bottom: auto; */
 /* }  */
 
-.contact-info{
+/* .contact-info{
   max-width: 450px;
   margin-left: 15px;
   margin-right: auto;
-}
+} */
 
 
 footer {
@@ -100,7 +120,7 @@ main #portfolio-info {
   width: 60%;
   height: 70%;
   margin-right: 80%;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 10%;
   margin-bottom: 20%;
   padding-left: 35px;
@@ -110,18 +130,11 @@ main #portfolio-info {
   position: relative;
   text-align: center;
 
-  /* padding-bottom: auto; */
 }
 
-.content{
-  margin-top: 50px;
-  margin-bottom: 100px;
-  padding-top: 25px;
-  padding-left: 15px;
-  padding-bottom: 25px;
-  padding-right: 25px;
-  background-color: white;
-}
+
+
+
 
 .bottom-center {
   position: absolute;
@@ -132,10 +145,10 @@ main #portfolio-info {
 
 #about-info {
   background-color: white;
-  width: 60%;
+  width: 50%;
   height: 70%;
   margin-right: 80%;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 10%;
   margin-bottom: 20%;
   padding-left: 35px;
@@ -150,7 +163,7 @@ hr {
 }
 
 .content-text {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .banner {
@@ -183,15 +196,45 @@ hr {
   margin-right: 15px;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
   .card-img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+  }
+  .p{
+    font-size: 1.5vw;
   }
 } 
 
-/* @media   (max-width: 1110px ) {
-  .container .content {
-    width: auto;
+@media all and (min-width: 990px) {
+  .card-img{
+    width: 200px;
+    height: 200px;
   }
-}  */
+  
+} 
+
+
+@media screen and (max-width: 768px) {
+  #contact-info {	  
+    width : 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-bottom: 30%;
+  }	 
+  
+  #about-info{	  
+    width : 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-bottom: 30%;
+
+  }	 
+  #portfolio-info{	  
+    width : 100%;
+   
+    margin-bottom: 30%;
+
+  }	 
+}
+
