@@ -1,6 +1,6 @@
 body {
   background-color: lightgrey;
-  background-image: url(../assets/images/2.jpg);
+  background-image: url(../assets/images/see.jpg);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -10,23 +10,32 @@ body {
 #black {
   border: black;
 }
+.navbar{
+  opacity: .9;
+
+}
 
 .navbar-brand {
-  background-color: cadetblue;
+  background-color: rgb(110, 110, 143);
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: wheat;
 }
 
-.navbar-light .navbar-brand:hover {
-  color: white;
+.navbar-dark .navbar-brand:hover {
+  color: wheat;
 }
 
-.navbar-light .navbar-brand:visited {
-  color: white;
+.navbar-dark .navbar-brand:visited {
+  color: wheat;
 }
 
-.navbar-light .navbar-brand {
-  color: white;
+.navbar-dark .navbar-brand {
+  color: wheat;
+
 }
 
 .contact-info {
@@ -43,9 +52,12 @@ body {
 #portfolio {
   text-align: left;
 }
+.about-container{
+  opacity: .8;
+}
 
 h1 {
-  color: cadetblue;
+  color: gold;
   font-weight: bold;
   font-size: 3 vw;
   margin-bottom: 0px;
@@ -79,6 +91,9 @@ footer {
   padding-right: 35px;
   position: relative;
   text-align: center;
+  opacity: .9;
+  border-radius: 20px;
+
 
 }
 
@@ -95,6 +110,10 @@ footer {
   background-color: white;
   max-width: 550px;
   min-width: 250px;
+  opacity: .8;
+  border-radius: 20px;
+
+
 }
 
 #about-info {
@@ -109,6 +128,8 @@ footer {
   padding-top: 35px;
   padding-bottom: 35px;
   padding-right: 35px;
+  border-radius: 20px;
+
 }
 
 
@@ -125,6 +146,14 @@ hr {
   height: 2px;
   background-color: lightgray;
 }
+i{
+  color: black;
+}
+.fa-linkedin{
+  color: white;
+  background-color: rgb(52, 95, 238);
+  padding: 2px 2px;
+}
 
 .content-text {
   font-size: 5vw;
@@ -133,18 +162,26 @@ hr {
 .banner {
   position: relative;
 }
-.heading {
+.heading  {
   position: absolute;
   font-size: 14px;
   left: 0;
   right: 0;
-  bottom: 5px;
+  bottom: 10px;
   text-align: center;
   width: 100%;
-  background-color: cadetblue;
+  background-color: lightblue;
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
+  opacity: .8;
+
+}
+.heading i{
+  color:black;
+}
+.heading a{
+  color:darkblue;
 }
 
 /* /* @media (min-width: 576px) {
