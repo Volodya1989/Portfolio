@@ -29,9 +29,9 @@ This web page was built by using best practices of web development including res
 
 !["About" page](./assets/images/homePage-readme.png)
 
-!["Portfolio" page](./assets/images/portfolio.png)
+!["Portfolio" page](./assets/images/portfolio-page.png)
 
-!["Contact" page](./assets/images/Contact.png)
+!["Contact" page](./assets/images/Contact-page.png)
 
 ## Credits
 
